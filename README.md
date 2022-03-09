@@ -1,2 +1,3 @@
 # docs
- Manifold Markets Docs
+
+Manifold Markets Docs
