@@ -15,7 +15,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://manifold.markets/favicon.ico',
-  organizationName: 'manticmarkets', // Usually your GitHub org/user name.
+  organizationName: 'manifoldmarkets', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   presets: [
@@ -24,16 +24,17 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/manticmarkets/docs/tree/main/',
+          editUrl: 'https://github.com/manifoldmarkets/docs/tree/main/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/manticmarkets/docs/tree/main/',
+          editUrl: 'https://github.com/manifoldmarkets/docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
