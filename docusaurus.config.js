@@ -31,11 +31,6 @@ const config = {
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: 'https://github.com/manifoldmarkets/docs/tree/main/',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
