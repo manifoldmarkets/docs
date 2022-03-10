@@ -60,13 +60,12 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'about',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/manifoldmarkets/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -76,11 +75,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Manifold',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Manifold Markets',
+                to: 'https://manifold.markets',
+              },
+              {
+                label: 'Docs',
+                to: '/',
               },
             ],
           },
@@ -88,16 +91,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/eHQBNBqXuh',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/manifoldmarkets',
               },
             ],
           },
@@ -106,16 +105,16 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'https://manifoldmarkets.substack.com',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/manifoldmarkets/docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Manifold Markets, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
