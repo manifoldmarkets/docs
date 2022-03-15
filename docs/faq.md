@@ -1,7 +1,5 @@
 # Community FAQ
 
-Originally compiled by [Isaac King](https://outsidetheasylum.blog/manifold-markets-faq/).
-
 ## General
 
 ### Do I have to pay real money in order to participate?
@@ -22,11 +20,11 @@ No. Gambling laws put many restrictions on real-money prediction markets, so Man
 
 ### How do the free response markets work?
 
-Any user can enter a response and bet on it, or they can bet on on other people's responses. The response probabilities are weighted proportionally to how many people have bet on them. The market creator's ante goes into a "none of the above" pseudo-option that can't be bet on and can't be chosen as a correct answer when the market is resolved. (This means that free response markets tend to lose their creator almost their entire ante, whereas normal markets only lose them a small fraction that's proportional to how well they chose their starting odds. It also means that if there are only a finite number of options that could win, bettors can make guaranteed money by investing in them all equally.) See [here](https://manifoldmarkets.substack.com/p/above-the-fold-milestones-and-new) for more information.
+Any user can enter a response and bet on it, or they can bet on on other people's responses. The response probabilities are weighted proportionally to how many people have bet on them. The market creator's ante goes into a "none of the above" pseudo-option that can't be bet on and can't be chosen as a correct answer when the market is resolved. (This means that free response markets tend to lose their creator almost their entire ante, whereas normal markets only lose them a small fraction that's proportional to how well they chose their starting odds. It also means that if there are only a finite number of options that could win, traders can make guaranteed money by investing in them all equally.) See [here](https://manifoldmarkets.substack.com/p/above-the-fold-milestones-and-new) for more information.
 
 ### How accurate are the market probabilities?
 
-In general, prediction markets are very accurate. They do have some known issues, most which can be found on the [Wikipedia page.](https://en.wikipedia.org/wiki/Prediction_market#Accuracy). There are also a few factors that are specific to Manifold Markets:
+In general, prediction markets are very accurate. They do have some known issues, most of which can be found on the [Wikipedia page.](https://en.wikipedia.org/wiki/Prediction_market#Accuracy). There are also a few factors that are specific to Manifold Markets:
 
 - Manifold uses play money for their markets, so there's less of an incentive for people to invest safely. People often goof around with silly markets and investments that they don't expect to win M$ from.
 - Anyone can create a market on Manifold, and there's nothing preventing the creator of a market from trying to manipulate it to make a profit.
@@ -73,7 +71,7 @@ Trading is anonymous by default. You'll only see their username if they leave a 
 
 ### Is there any benefit to creating markets?
 
-You get your question answered! Plus, you earn 4% of all bettor profits in your markets.
+You get your question answered! Plus, you earn 4% of all trader profits in your markets.
 
 ### What can I create a market about?
 
@@ -113,7 +111,7 @@ You'll get an automated email when they close. You can also go to your profile p
 
 ### When do market creators get their 4% cut?
 
-When the creator resolves their market, they get 4% of the profits from all shares that were in the market when it closed. If a bettor sells some of their shares at a profit before the market closes, the market creator gets 4% of those profits at that time. If a market resolves as N/A, the creator doesn't get any profit from shares in the market when it closed, but they do keep the 4% gained from any shares that were sold beforehand.
+When the creator resolves their market, they get 4% of the profits from all shares that were in the market when it closed. If a trader sells some of their shares at a profit before the market closes, the market creator gets 4% of those profits at that time. If a market resolves as N/A, the creator doesn't get any profit from shares in the market when it closed, but they do keep the 4% gained from any shares that were sold beforehand.
 
 ### Where can I see how much M$ I made on a market I created?
 
@@ -163,4 +161,8 @@ Yep. Documentation is [here](https://www.notion.so/Manifold-Markets-API-5e7d0ae
 
 ### If I have a question that isn't answered here, where can I ask it?
 
-You can contact Manifold Markets via [email](mailto:info@manifold.markets) or post in their [Discord](https://discord.gg/eHQBNBqXuh). Once you have an answer, you can also [email me](mailto:is.aack@yahoo.com) about adding that question to this FAQ.
+You can contact Manifold Markets via [email](mailto:info@manifold.markets) or post in their [Discord](https://discord.gg/eHQBNBqXuh). Once you have an answer, please consider updating this FAQ via "Edit this page" on Github!
+
+## Credits
+
+This FAQ was originally compiled by [Isaac King](https://outsidetheasylum.blog/manifold-markets-faq/).
