@@ -61,7 +61,9 @@ What's more, when the creator is free to use their judgment, many new kinds of p
 
 ### **What kind of betting system do you use?**
 
-Manifold Markets uses a special type of automated market marker based on a dynamic pari-mutuel (DPM) betting system.
+Manifold markets is currently using more than one kind of automated market maker.
+
+Markets created before March 15 and Free response markets use a special type of automated market marker based on a dynamic pari-mutuel (DPM) betting system.
 
 Like traditional pari-mutuel systems, your payoff is not known at the time you place your bet (it's dependent on the size of the pool when the event is resolved).
 
@@ -70,6 +72,8 @@ Unlike traditional pari-mutuel systems, the price or probability that you buy in
 The result is a market that can function well when trading volume is low without any risk to the market creator.
 
 Read **[our technical guide](https://www.notion.so/Technical-Guide-to-Manifold-Markets-b9b48a09ea1f45b88d991231171730c5)** to find out more!
+
+Binary markets created after March 15 use a variation on constant-product market makers due to Manifold user Pepe: Instead of the product (or equivalently, the geometric mean) of YES shares and NO shares on the table, they hold constant the weighted geometric mean, with weights equal to the probabilities chosen by the market creator at creation.
 
 ### **Can I create private markets?**
 
