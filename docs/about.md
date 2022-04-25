@@ -45,37 +45,19 @@ Prediction markets aggregate and reveal crucial information that would not other
 
 Prediction markets can predict **[which research papers will replicate](https://www.pnas.org/content/112/50/15343)**; which drug is the most effective; which policy would generate the most tax revenue; which charity will be underfunded; or which startup idea is the most promising. By surfacing and quantifying our collective knowledge, we as a society become wiser.
 
-### **How does betting work?**
-
-- Markets are structured around a question with a binary outcome.
-- Traders can place a bet on either YES or NO. The trader receives some shares of the betting pool. The number of shares depends on the current probability.
-- When the market is resolved, the traders who bet on the correct outcome are paid out of the final pool in proportion to the number of shares they own.
-
 ### **How are markets resolved?**
 
-The creator of the prediction market decides the outcome and earns 4% of trader profits. as a commission for creating and resolving the market.
+The creator of the prediction market decides the outcome and earns a commission based on the trade volume.
 
 This simple resolution mechanism has surprising benefits in allowing a diversity of views to flourish. Competition between market creators will lead to traders flocking to the creators with good judgment on market resolution.
 
 What's more, when the creator is free to use their judgment, many new kinds of prediction markets can be created that are less objective or even personal. (E.g. "Will I enjoy participating in the Metaverse in 2023?")
 
-### **What kind of betting system do you use?**
-
-Manifold Markets uses a special type of automated market marker based on a dynamic pari-mutuel (DPM) betting system.
-
-Like traditional pari-mutuel systems, your payoff is not known at the time you place your bet (it's dependent on the size of the pool when the event is resolved).
-
-Unlike traditional pari-mutuel systems, the price or probability that you buy in at changes continuously to ensure that you're always getting fair odds.
-
-The result is a market that can function well when trading volume is low without any risk to the market creator.
-
-Read **[our technical guide](https://www.notion.so/Technical-Guide-to-Manifold-Markets-b9b48a09ea1f45b88d991231171730c5)** to find out more!
-
-### **Can I create private markets?**
+<!-- ### **Can I create private markets?**
 
 Soon! We're running a pilot version of Manifold for Teams - private Manifold instances where you can discuss internal topics and predict on outcomes for your organization.
 
-If this sounds like something you’d want, **[join the waitlist here](https://docs.google.com/forms/d/e/1FAIpQLSfM_rxRHemCjKE6KPiYXGyP2nBSInZNKn_wc7yS1-rvlLAVnA/viewform?usp=sf_link)**!
+If this sounds like something you’d want, **[join the waitlist here](https://docs.google.com/forms/d/e/1FAIpQLSfM_rxRHemCjKE6KPiYXGyP2nBSInZNKn_wc7yS1-rvlLAVnA/viewform?usp=sf_link)**! -->
 
 ### **Who are we?**
 
@@ -99,7 +81,5 @@ Questions? Comments? Want to create a market? Talk to us!
 
 ## **Further Reading**
 
-- **[An in-depth, unofficial FAQ by Isaac King](https://outsidetheasylum.blog/manifold-markets-faq/)**
-- **[How Manifold's market maker works](https://www.notion.so/Technical-Guide-to-Manifold-Markets-b9b48a09ea1f45b88d991231171730c5)**
+- **[Above the fold](https://manifoldmarkets.substack.com/)**, our newsletter
 - **[Scott Alexander on play-money prediction markets](https://astralcodexten.substack.com/p/play-money-and-reputation-systems)**
-- **[Paul Christiano on prediction markets for internet points](https://sideways-view.com/2019/10/27/prediction-markets-for-internet-points/)**
