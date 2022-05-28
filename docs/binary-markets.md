@@ -21,7 +21,7 @@
         - The post-trade probability is what the market probability would be after your bet if there were no fees.
         - Example:
             - If you bet M$100 on NO and the resulting probability without fees would be 10%, then you pay M$100 * 13% * 10% = M$1.3.
-            - If you bet M$100 on YES and the resulting probability without fees would be 90%, then you pay M$100 * 13% * 10% = M$1.3.
+            - If you bet M$100 on YES and the resulting probability without fees would be 90%, then you pay `M$100 * 13% * 10% = M$1.3`.
         - The fees are used to provide a commission to the market creator and to subsidize trading within the market.
         - The market creator’s commission is paid out only after the market is resolved.
     - No fees are levied on sales.
