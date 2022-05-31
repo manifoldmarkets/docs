@@ -357,11 +357,6 @@ This is a convenience endpoint for getting info about a market from it slug (eve
   ```
 - Response type: A `FullMarket` ; same as above.
 
-## Deprecated
-
-- Our old Markets API was available at [https://us-central1-mantic-markets.cloudfunctions.net/markets](https://us-central1-mantic-markets.cloudfunctions.net/markets)
-- We don’t plan on continuing to change this, but we’ll support this endpoint until 2022-03-30
-
 ## Changelog
 
 - 2022-02-28: Add `resolutionTime` to markets, change `closeTime` definition
