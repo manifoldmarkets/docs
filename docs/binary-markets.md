@@ -1,5 +1,15 @@
 # Guide to YES/NO markets
 
+# Overview
+
+Historically, Manifold used a special type of automated market marker based on a dynamic pari-mutuel (DPM) betting
+system. Free response and numeric markets still use this system. Binary markets created prior to March 15, 2022 used
+this system.
+
+Binary markets created after March 15 use a constant-function market maker which holds constant the weighted geometric
+mean, with weights equal to the probabilities chosen by the market creator at creation. This design was inspired by
+Uniswap's CPMM and a suggestion from Manifold user Pepe.
+
 # Basic facts
 
 - Markets are structured around a question with a binary outcome.
@@ -13,7 +23,7 @@
 # Betting
 
 - Betting on YES will increase the market’s implied probability; betting on NO will decrease the probability.
-- Manifold uses an automated market maker to automatically adjust the market probability after each trade and to determine how many shares a user will get for their bet.
+- Manifold's automated market automatically adjusts the market probability after each trade and determines how many shares a user will get for their bet.
 - You can sell back your shares for cash. If you sell YES shares, the market probability will go down. If you sell NO shares, the probability will go up.
 - Manifold charges fees on each trade. They are baked into the number of shares you receive.
     - If you place a M$100 bet on YES when the probability is 50%, you may end up with 150 YES shares. These shares already include our fees. Notice also that when you buy, the probability goes up, so you are not getting in exactly at 200 shares or 50%.
